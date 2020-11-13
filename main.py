@@ -1,16 +1,11 @@
 def print_hi(name):
     print(f'Hi, {name}')
 
-
-
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-
-
 def emailIsValid():
     return True
-
 
 class Guide:
     wordbook = {}
@@ -47,10 +42,10 @@ class Guide:
 
 guide = Guide()
 
-guide.addNote('whewisa@mail.com', 'Иван', 'Иванович', '1234567890', 'Москва')
+guide.addNote('efgij@mail.com', 'Иван', 'Иванович', '1234567890', 'Москва')
 guide.addNote('abc@mail.com', 'Кирилл', 'Васькин', '+78521416563', 'Екатеринбург')
 print(guide.wordbook)
-guide.change('abc@mail.com', '', 'Lalala', '', '')
+guide.change('abc@mail.com', '', 'Abcdef', '', '')
 print(guide.wordbook)
 
 print(guide.find('abc@mail.com'))
